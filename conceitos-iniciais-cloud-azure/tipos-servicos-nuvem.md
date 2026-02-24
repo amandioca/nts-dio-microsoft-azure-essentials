@@ -5,8 +5,12 @@
  
  A depender do tipo uma das partes pode ter mais responsabilidades que a outra, bem como também é possível compartilharem a responsabilidade de um mesmo item.
 
+<img width="1917" height="943" alt="image" src="https://github.com/user-attachments/assets/c306d72b-fcb3-404e-b749-746aaf608c64" />
+
 ---
-Existem três tipos de serviços que ditam as responsabilidades de provedor (nuvem) X consumidor (cliente).
+<img align="right" height="150" alt="image" src="https://github.com/user-attachments/assets/d408790e-01f8-453c-8c7f-330951443f26" />
+
+#### Existem três tipos de serviços que ditam as responsabilidades de provedor (nuvem) X consumidor (cliente).
 
 * **IaaS**: "Gerencio o servidor" 
 
@@ -14,7 +18,7 @@ Existem três tipos de serviços que ditam as responsabilidades de provedor (nuv
 
 * **SaaS**: "Só uso"
 
----
+#
 ### **IaaS**: Infraestrutura
 O provedor entrega a infraestrutura física e o cliente é responsável pelo sistema operacional, aplicações, dados e configuração de segurança.
 
@@ -27,7 +31,7 @@ Para empresas que precisam do máximo de controle do ambiente.
 
 **Exemplos:** Azure Virtual Machine; AWS EC2; Google Compute Engine VM no GPC; etc.
 
----
+#
 ### **PaaS**: Plataforma
 O provedor fornece o ambiente pronto para rodar a aplicação do cliente.
 
@@ -39,7 +43,7 @@ Desenvolvedores que querem um local para alocar o aplicativo/software.
 
 **Exemplos:** Heroku; Vercel; Netlify; Azure App Serviço; etc.
 
----
+#
 ### **SaaS**: Software
 Provedor fornece o software/aplicativo pronto para ser consumido.
 
