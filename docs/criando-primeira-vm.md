@@ -33,28 +33,28 @@ Este guia fornece um passo a passo para criar uma máquina virtual na plataforma
 
 > Se você optar por selecionar "Executar com desconto de Spot do Azure", terá desconto na VM, porém disponibilidade limitada. Selecione (i) para mais detalhes.
 
-![alt text](./imgs/image.png)
+![alt text](./imgs/criando-primeira-vm/image.png)
 
 6. Selecione o **Tamanho** da sua máquina.
 
       O tamanho escolhido determina fatores como capacidade de processamento, memória e capacidade de armazenamento.
       As **opções disponíveis e valores podem variar** de acordo com a **Zona de disponibilidade** escolhida.
 
-![alt text](./imgs/image3.png)
+![alt text](./imgs/criando-primeira-vm/image3.png)
 
 7. Em **Conta de administrador**, forneça um usuário como `azureuser` e uma senha, conforme o requisito de complexidade definido.
 
-![alt text](./imgs/image2.png)
+![alt text](./imgs/criando-primeira-vm/image2.png)
 
 8. Em **Regras de porta de entrada**, escolha **Permitir portas selecionadas** e, em seguida, selecione RDP (3389) e HTTP (80) na lista suspensa.
 
-![alt text](./imgs/image4.png)
+![alt text](./imgs/criando-primeira-vm/image4.png)
 
 9. Deixe os padrões restantes e clique em **Revisar + criar**
 
 10. Após passar na validação, você terá o resumo da sua VM e valor/hora total. Clique em criar.
 
-![alt text](./imgs/image5.png)
+![alt text](./imgs/criando-primeira-vm/image5.png)
 
 ## Próximos Passos
 
@@ -65,14 +65,14 @@ Após criar a VM, você pode:
 - Configurar backups
 - Monitorar performance
 
-![alt text](./imgs/image6.png)
+![alt text](./imgs/criando-primeira-vm/image6.png)
 
 ## Ao terminar, exclua!
 
 Para para zerar o custo e não consumir seus créditos ou gerar gastos, exclua sua VM e recursos associados ao fim do laboratório. 
 Também é possível apenas desligar, mas é possível que ainda assim haja gastos com recursos associados como armazenamento e IP público. 
 
-![alt text](./imgs/image7.png)
+![alt text](./imgs/criando-primeira-vm/image7.png)
 
 > Na página inicial você pode acompanhar seus créditos disponíveis.
 
