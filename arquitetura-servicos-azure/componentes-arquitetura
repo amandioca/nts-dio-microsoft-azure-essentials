@@ -1,0 +1,32 @@
+# Componentes de Arquitetura
+Quanto mais disponível o sistema for, mais caro será! ... Mas quanto custará à empresa uma indisponibilidade?
+
+## Regiões
+Um ou mais datacenters (zonas) localizados em determinada região geográfica.
+* Quanto mais perto, mais rápido 
+* Valores diferentes em cada Região 
+* Nem todas as regiões possuem todos os recursos
+* Comunicação de baixa latência 
+* LGPD
+
+### Zonas de disponibilidade 
+* Datacenters localizados dentro de uma mesma Região. 
+* Funcionam individualmente, mas conectados entre si com baixa latência.
+
+### Pares de Regiões
+* Mínimo de 300 milhas de separação entre regiões
+* Disaster Recovery
+* Redundância de dados
+* Replica os dados para maior Segurança disponibilidade
+
+## Soberania
+Isolamento de segurança de dados.
+
+#### Serviços Governamentais dos EUA 
+* Militares
+* Governos estaduais
+* Provedores de Soluções
+* Isolado do comercial 
+
+#### Recursos do Azure China. 
+* Instância fisicamente separada da nuvem Azure, operados pela 21 vianet
